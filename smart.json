@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "bootstrap-3": {},
+    "font-awesome": {},
+    "modernizr-meteor": {},
+    "wow": {}
+  }
+}
