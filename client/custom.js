@@ -6,4 +6,14 @@ Template.menu.rendered = function () {
 	//animation
 	new WOW().init();
 	// ...
-}; 
+};
+
+Template.menu.events({
+	'click #dl-menu': function () {
+		// ...
+		console.log('hello');
+		$( '#dl-menu' ).dlmenu();
+		$('ul.dl-menu li a').smoothScroll();
+	}
+});
+ 
